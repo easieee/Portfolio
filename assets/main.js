@@ -42,3 +42,8 @@ menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x');
     navbar.classList.toggle('active');
 }
+
+function sendMail(){
+    let parms = {
+        name : document.getElementById("name").value,
+        email : document.getElementById("email").value
