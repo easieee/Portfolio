@@ -49,7 +49,8 @@ function sendMail(){
         email : document.getElementById("email").value,
         subject : document.getElementById("subject").value,
         message : document.getElementById("message").value,
-        number : document.getElementById("pnumber").value
+        number : document.getElementById("number").value
     }
     emailjs.send("service_portfoliocontact", "template_qbnphmd", parms).then(alert("Email Sent!!"))
 }
+
